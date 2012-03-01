@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/index.html</loc>
+</url>
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/class-Slevomat_Client_Partner.html</loc>
+</url>
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/class-Slevomat_Client_Response_Abstract.html</loc>
+</url>
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/class-Slevomat_Client_Response_Failure.html</loc>
+</url>
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/class-Slevomat_Client_Response_Success.html</loc>
+</url>
+<url>
+	<loc>http://slevomat.github.com/partner-api-php-library/class-Slevomat_Client_ResponseFactory.html</loc>
+</url>
+</urlset>

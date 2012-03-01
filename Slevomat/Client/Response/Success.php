@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Slevomat.cz/ZĽavomat.sk Partner API Client.
+* Slevomat.cz/Zľavomat.sk Partner API Client.
 *
 * @copyright Copyright (c) 2012 Slevomat.cz, s.r.o.
 * @version 1.0

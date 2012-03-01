@@ -183,7 +183,7 @@ class Slevomat_Client_Partner
 		}
 
 		if (!extension_loaded('curl')) {
-			throw new RuntimeException('The "json" PHP extension is required.');
+			throw new RuntimeException('The "curl" PHP extension is required.');
 		}
 	}
 }

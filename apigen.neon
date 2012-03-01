@@ -1,0 +1,10 @@
+source: "."
+charset: ["UTF-8"]
+title: "Slevomat Partner API Library"
+baseUrl: 'http://slevomat.github.com/partner-api-php-library'
+php: No
+tree: Yes
+deprecated: No
+todo: No
+sourceCode: Yes
+download: Yes

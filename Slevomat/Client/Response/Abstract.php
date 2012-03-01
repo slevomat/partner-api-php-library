@@ -6,8 +6,8 @@
 * @copyright Copyright (c) 2012 Slevomat.cz, s.r.o.
 * @version 1.0
 * @apiVersion 1.0
-* @see http://www.slevomat.cz/pro-partnery/voucher-api
-* @see http://www.zlavomat.sk/pre-partnerov/voucher-api
+* @link http://www.slevomat.cz/pro-partnery/voucher-api
+* @link http://www.zlavomat.sk/pre-partnerov/voucher-api
 */
 
 /**

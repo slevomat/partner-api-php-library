@@ -5,8 +5,8 @@
 * @copyright Copyright (c) 2012 Slevomat.cz, s.r.o.
 * @version 1.0
 * @apiVersion 1.0
-* @see http://www.slevomat.cz/pro-partnery/voucher-api
-* @see http://www.zlavomat.sk/pre-partnerov/voucher-api
+* @link http://www.slevomat.cz/pro-partnery/voucher-api
+* @link http://www.zlavomat.sk/pre-partnerov/voucher-api
 */
 
 require_once dirname(__FILE__) . '/ResponseFactory.php';
@@ -79,7 +79,7 @@ class Slevomat_Client_Partner
 	 * The whole response object will be stored in the second parameter.
 	 *
 	 * @param string $code Voucher code
-	 * @param Slevomat_Api_Response_Abstract $response Response object
+	 * @param Slevomat_Client_Response_Abstract $response Response object
 	 * @return boolean
 	 */
 	public function checkVoucher($code, &$response = null)
@@ -97,7 +97,7 @@ class Slevomat_Client_Partner
 	 * The whole response object will be stored in the second parameter.
 	 *
 	 * @param string $code Voucher code
-	 * @param Slevomat_Api_Response_Abstract $response Response object
+	 * @param Slevomat_Client_Response_Abstract $response Response object
 	 * @return boolean
 	 */
 	public function applyVoucher($code, &$response = null)
@@ -112,7 +112,7 @@ class Slevomat_Client_Partner
 	 *
 	 * @param string $action Action name
 	 * @param array $parameters Additional HTTP parameters
-	 * @return Slevomat_Api_Response_Abstract
+	 * @return Slevomat_Client_Response_Abstract
 	 * @throws RuntimeException When the request to the API could not be performed
 	 */
 	protected function performRequest($action, array $parameters)

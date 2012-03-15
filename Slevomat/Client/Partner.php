@@ -147,9 +147,12 @@ class Slevomat_Client_Partner
 				CURLOPT_CONNECTTIMEOUT => 5,
 				CURLOPT_TIMEOUT => 10,
 				CURLOPT_SSL_VERIFYPEER => false,
-				CURLOPT_MAXREDIRS => 2,
-				CURLOPT_FOLLOWLOCATION =>true
+				CURLOPT_MAXREDIRS => 2
 			));
+
+			if (!ini_get('safe_mode') && !ini_get('open_basedir')) {
+				curl_setopt($request, CURLOPT_FOLLOWLOCATION, true);
+			}
 		}
 
 		return $request;

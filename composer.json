@@ -1,0 +1,13 @@
+{
+	"name": "slevomat/partner-api-php-library",
+	"description": "PHP library for the Slevomat.cz/Zlavomat.sk voucher API for partners",
+	"keywords": ["slevomat", "zlavomat", "voucher", "api"],
+	"homepage": "https://github.com/slevomat/partner-api-php-library",
+	"license": ["proprietary"],
+	"authors": [
+		{
+			"name": "Slevomat.cz, s.r.o.",
+			"homepage": "http://www.slevomat.cz"
+		}
+	]
+}

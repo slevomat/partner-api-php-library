@@ -1,0 +1,8 @@
+{
+	"name": "slevomat/partner-api-php-library",
+	"description": "A library providing API for vouchers",
+	"require": {
+		"php": ">=5.0.0"
+	}
+}
+

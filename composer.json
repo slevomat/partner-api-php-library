@@ -9,5 +9,8 @@
 			"name": "Slevomat.cz, s.r.o.",
 			"homepage": "http://www.slevomat.cz"
 		}
-	]
+	],
+	"autoload": {
+		"classmap": ["Slevomat/"]
+	}
 }

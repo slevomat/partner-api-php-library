@@ -9,15 +9,14 @@
 * @link http://www.slevomat.cz/pro-partnery/voucher-api
 * @link http://www.zlavomat.sk/pre-partnerov/voucher-api
 */
-
-require_once dirname(__FILE__) . '/Abstract.php';
+namespace Slevomat\Client\Response;
 
 /**
  * Failure API response class.
  *
  * Returned when the desired operation was not successful.
  */
-class Slevomat_Client_Response_Failure extends Slevomat_Client_Response_Abstract
+class Failure extends Common
 {
 	/**
 	 * Raw error data.
